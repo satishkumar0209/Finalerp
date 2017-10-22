@@ -14,7 +14,7 @@ public class Apiv4 {
 		System.setProperty("webdriver.chrome.driver", "/home/aj/Downloads/chromedriver");
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("https://myswaastherp.sia.co.in/signup");
+		driver.get("http://apiv3.myswaasth.com/mahaflox/login/?next=/mahaflox/");
 		
 			WebElement email=apiv4.email(driver);
 			Helpher.highLightElement(driver, email);
