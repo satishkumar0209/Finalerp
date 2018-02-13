@@ -18,11 +18,11 @@ public class Apiv4 {
 		
 			WebElement email=apiv4.email(driver);
 			Helpher.highLightElement(driver, email);
-			email.sendKeys("admin@innotical.com");
+			email.sendKeys("admin");
 			
 			WebElement password=apiv4.email(driver);
 			Helpher.highLightElement(driver, email);
-			password.sendKeys("admin_inno111");
+			password.sendKeys("password");
 			
 			WebElement login=apiv4.email(driver);
 			Helpher.highLightElement(driver, login);
